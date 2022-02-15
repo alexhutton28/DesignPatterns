@@ -8,16 +8,16 @@ import java.util.*;
 public class MathGame {
     private static MathGame mathGame;
     private int score = 0;
-    private Random rand = new Random();
-    private Scanner reader = new Scanner(System.in);
+    private Random rand;
+    private Scanner reader;
     private String[] operands = { "+", "-", "*", "/" };
 
     /**
      * Default constructor for the mathgame which will be called by get Instance
      */
     private MathGame() {
-        Random rand = new Random();
-        Scanner reader = new Scanner(System.in);
+        rand = new Random();
+        reader = new Scanner(System.in);
         System.out.println("Let's Have fun with Math!");
     }
 
