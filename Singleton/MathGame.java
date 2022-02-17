@@ -3,7 +3,7 @@ import java.util.*;
 
 /**
  * A math game that tests the user with addition, subtraction, multiplication,
- * and division.
+ * and division problems.
  */
 public class MathGame {
     private static MathGame mathGame;
