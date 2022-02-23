@@ -96,4 +96,24 @@ public class MathGame {
         }
     }
 
+    public static int sumPrimes(int num) {
+        int sum = 0;
+        int numDivisible = 0;
+
+        for (int i = 1; i <= num; i++) {
+            numDivisible = 0;
+
+            for (int j = 1; j <= 1; j++) {
+                if (i % j == 0) {
+                    numDivisible++;
+                }
+            }
+            if (numDivisible > 2 || i == 1) {
+                // not prime
+            } else {
+                sum += i;
+            }
+        }
+        return sum;
+    }
 }
