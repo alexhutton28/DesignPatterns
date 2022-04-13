@@ -102,6 +102,14 @@ public class MusicBox {
    */
   public void playSong(String songName, ArrayList<String> lyrics) {
     System.out.println("Now Playing: " + songName + "\n");
-    System.out.println(lyrics.toString());
+    for (int i = 0; i < lyrics.size(); i++) {
+      System.out.println(lyrics.get(i));
+      try {
+        Thread.sleep(750);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
+    System.out.println("");
   }
 }

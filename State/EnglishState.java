@@ -19,8 +19,12 @@ public class EnglishState implements State {
    */
   public void pressStarButton() {
     ArrayList<String> lyrics = new ArrayList<String>();
-    lyrics.add(
-        "Twinkle twinkle little star\nHow I wonder what you are\nUp above the world so high\nLike a dimond in the sky\nTwinkle twinkle little star\nHow I wonder what you are");
+    lyrics.add("Twinkle twinkle little star");
+    lyrics.add("How I wonder what you are");
+    lyrics.add("Up above the world so high");
+    lyrics.add("Like a dimond in the sky");
+    lyrics.add("Twinkle twinkle little star");
+    lyrics.add("How I wonder what you are");
     String songName = "Twinkle Twinkle Little Star";
     box.playSong(songName, lyrics);
   }
@@ -31,8 +35,10 @@ public class EnglishState implements State {
    */
   public void pressHappyButton() {
     ArrayList<String> lyrics = new ArrayList<String>();
-    lyrics.add(
-        "If you're happy and you know it clap your hands\nIf you're happy and you know it clap your hands\nIf you're happy and you know it\nAnd you really want to show it\nIf you're happy and you know it clap your hands");
+    lyrics.add("If you're happy and you know it clap your hands");
+    lyrics.add("If you're happy and you know it clap your hands");
+    lyrics.add("If you're happy and you know it And you really want to show it");
+    lyrics.add("If you're happy and you know it clap your hands");
     String songName = "If You're Happy and You Know It";
     box.playSong(songName, lyrics);
 

@@ -19,9 +19,13 @@ public class FrenchState implements State {
    */
   public void pressStarButton() {
     ArrayList<String> lyrics = new ArrayList<String>();
-    lyrics.add(
-        "Brille, brille, petite étoile\nJe me demande vraiment ce que tu es!\nAu-dessus du monde si haut\nComme un diamant dans le ciel\nBrille, brille, petite étoile\nJe me demande vraiment ce que tu es!\n");
     String songName = "Brille, brille, petite étoile";
+    lyrics.add("Brille, brille, petite étoile");
+    lyrics.add("Je me demande vraiment ce que tu es!");
+    lyrics.add("Au-dessus du monde si haut");
+    lyrics.add("Comme un diamant dans le ciel");
+    lyrics.add("Brille, brille, petite étoile");
+    lyrics.add("Je me demande vraiment ce que tu es!");
     box.playSong(songName, lyrics);
   }
 
@@ -31,9 +35,13 @@ public class FrenchState implements State {
    */
   public void pressHappyButton() {
     ArrayList<String> lyrics = new ArrayList<String>();
-    lyrics.add(
-        "Si tu as d' la joie au coeur, Frappe des mains\nSi tu as d' la joie au coeur, Frappe des mains\nSi tu as d' la joie au coeur, Frappe des mains\nSi tu as d' la joie au coeur, Frappe des mains");
+
     String songName = "Si Tu as D' la Joie au Coeur";
+    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
+    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
+    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
+    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
+
     box.playSong(songName, lyrics);
   }
 
