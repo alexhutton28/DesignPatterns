@@ -19,8 +19,12 @@ public class SpanishState implements State {
    */
   public void pressStarButton() {
     ArrayList<String> lyrics = new ArrayList<String>();
-    lyrics.add(
-        "Estrellita, ¿dónde estás?\nQuiero verte cintilar\nEn el cielo, sobre el mar.\nUn diamante de verdad.\nEstrellita, ¿donde estas?\nQuiero verte cintilar.\n");
+    lyrics.add("Estrellita, ¿dónde estás?");
+    lyrics.add("Quiero verte cintilar");
+    lyrics.add("En el cielo, sobre el mar.");
+    lyrics.add("Un diamante de verdad.");
+    lyrics.add("Estrellita, ¿donde estas?");
+    lyrics.add("Quiero verte cintilar.");
     String songName = "Estrellita, ¿Donde Estas?";
     box.playSong(songName, lyrics);
   }
@@ -31,9 +35,13 @@ public class SpanishState implements State {
    */
   public void pressHappyButton() {
     ArrayList<String> lyrics = new ArrayList<String>();
-    lyrics.add(
-        "Si usted esta feliz Apaluda las fuerte.\nSi usted esta feliz Apaluda las fuerte.\nSi usted esta feliz\nEn su cara se vera.\nSi usted esta feliz\nApaluda las fuerte.\n");
     String songName = "Si usted esta feliz";
+    lyrics.add("Si usted esta feliz Apaluda las fuerte.");
+    lyrics.add("Si usted esta feliz Apaluda las fuerte.");
+    lyrics.add("Si usted esta feliz");
+    lyrics.add("En su cara se vera.");
+    lyrics.add("Si usted esta feliz");
+    lyrics.add("Apaluda las fuerte.");
     box.playSong(songName, lyrics);
   }
 

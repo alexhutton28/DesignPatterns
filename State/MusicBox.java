@@ -18,6 +18,7 @@ public class MusicBox {
     englishState = new EnglishState(this);
     spanishState = new SpanishState(this);
     frenchState = new FrenchState(this);
+    setState(englishState);
   }
 
   /**
@@ -74,7 +75,7 @@ public class MusicBox {
    * Presses the English button to switch to english state if possible
    */
   public void pressEnglishButton() {
-    setState(englishState);
+
     this.state.pressEnglishButton();
   }
 
@@ -82,7 +83,7 @@ public class MusicBox {
    * Presses the French Button to switch to french state if possible
    */
   public void pressFrenchButton() {
-    setState(frenchState);
+
     this.state.pressFrenchButton();
   }
 
@@ -90,7 +91,7 @@ public class MusicBox {
    * Presses the Spanish Button to switch to spanish state if possible
    */
   public void pressSpanishButton() {
-    setState(spanishState);
+
     this.state.pressSpanishButton();
   }
 

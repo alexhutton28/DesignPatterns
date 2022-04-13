@@ -37,10 +37,14 @@ public class FrenchState implements State {
     ArrayList<String> lyrics = new ArrayList<String>();
 
     String songName = "Si Tu as D' la Joie au Coeur";
-    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
-    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
-    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
-    lyrics.add("Si tu as d' la joie au coeur, Frappe des mains");
+    lyrics.add("Si tu as d' la joie au coeur");
+    lyrics.add("Frappe des mains");
+    lyrics.add("Si tu as d' la joie au coeur");
+    lyrics.add("Frappe des mains");
+    lyrics.add("Si tu as d' la joie au coeur");
+    lyrics.add("Si tu as d' la joie au coeur");
+    lyrics.add("Si tu as d' la joie au coeur");
+    lyrics.add("Frappe des mains");
 
     box.playSong(songName, lyrics);
   }
